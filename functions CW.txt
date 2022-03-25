@@ -1,0 +1,12 @@
+public class Main
+{
+	public static void main(String[] args) {
+	int num1 = 88;
+	int num2 = 91;
+	System.out.println(totalGrade(num1 , num2));
+	}
+	public static int totalGrade(int num1 , int num2){
+	    int result = num1 + num2;
+	    return result;
+	}
+}
